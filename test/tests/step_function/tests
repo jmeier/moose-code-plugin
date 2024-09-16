@@ -1,0 +1,8 @@
+[Tests]
+  [simple]
+    type = 'Exodiff'
+    input = 'step_function.i'
+    exodiff = 'step_function_out.e'
+    requirement = 'Values of the StepFunction should be dependent on time and valid before and after the defined range.'
+  []
+[]

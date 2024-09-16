@@ -36,7 +36,9 @@ If you want to offer a Moose code plugin for others to use, follow these steps:
 
   - Edit this README.md with a meaningful description and all details desired. You may delete this section ("For Implementers") but leave "Setup for Users".
 
-  - Test and commit your changes.
+  - Test your code. The best way to do this is to provide tests via the `test` folder. These tests can be executed using the `./run_tests` script (after compiling your app).
+
+  - Commit your changes.
 
 - Provide the URL of your git-repository to your users so they can clone your repository as a submodule (see "Setup for Users").
 
