@@ -1,9 +1,16 @@
 # mooseapp-code-plugin aka "Geronimo"
 
-When MooseApps are extended with new MooseObjects, e.g. in workgroups, the need quickly arises to be able to transfer this functionality to other MooseApps as a plug-in. Preferably without having to manually copy and adapt many code files. Furthermore, it is often good if there is independent source code management or versioning. The idea is to realise such code plug-ins for MooseApps as git submodules.
+If MooseApps are extended with new MooseObjects that should be shared with
+other users, e.g. in workgroups, the need arises to be able to transfer this
+functionality to other MooseApps as a plug-in. Preferably without having to
+manually copy and adapt many code files. Furthermore, it is often good if there
+is independent source code management or versioning. The idea is to realise
+such code plug-ins for MooseApps as git submodules.
 
-This repository demonstrates how to realize a 'contrib' code plugin for MooseApps derived from [Moose](https://mooseframework.inl.gov).
-For this purpose, this repository contains the needed makefile ([codeplugin.mk](codeplugin.mk)), the user setup guide (see below) and some notes for implementers (also see below).
+This repository demonstrates how to realize a 'contrib' code plugin for MooseApps
+derived from [Moose](https://mooseframework.inl.gov). For this purpose, this
+repository contains the needed makefile ([codeplugin.mk](codeplugin.mk)), the
+user setup guide (see below) and some notes for implementers (also see below).
 
 
 ## Setup for Users
